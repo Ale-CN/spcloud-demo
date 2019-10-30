@@ -1,0 +1,5 @@
+server:
+  port: 8070
+
+#\u7248\u672C\u53F7
+foo: foo version 1.0

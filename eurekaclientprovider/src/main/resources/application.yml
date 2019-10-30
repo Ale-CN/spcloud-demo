@@ -1,0 +1,12 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: provider01 #服务名称
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ #注册中心地址
+  instance:
+    prefer-ip-address: true #是否将当前服务的 IP 注册到 Eureka Server
+
